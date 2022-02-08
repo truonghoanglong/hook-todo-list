@@ -27,7 +27,7 @@ const Footer = () => {
   return (
     <>
       {
-        todos.length === 0 ? <h2>Congratulation! Nothing To Do</h2>
+        todos.length === 0 ? <h2>Congratulation! Nothing To Do <br /> Typing To Do</h2>
         : 
         <div className="row">
         <label htmlFor="all">
